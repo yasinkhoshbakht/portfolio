@@ -8,6 +8,7 @@ module.exports = {
         card: "#606060",
         testimonial: "#949494",
         footer: "#131313",
+        workCard: "#F4F7FA",
         black2: {
           300: '#FFFFFF',
           500: '#E5E6EB',
@@ -19,6 +20,8 @@ module.exports = {
       fontFamily: {
         'Rubik': ['Rubik'],
         'Syne': ['Syne'],
+        'Inter': ['Inter'],
+        'OpenSans': ['Open Sans'],
       },
     },
   },

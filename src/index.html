@@ -21,7 +21,7 @@
     <main class="flex flex-col">
       <header>
         <nav
-          class="w-full h-8 bg-transparent flex items-center pt-16 px-[155px] justify-between"
+          class="w-full h-8 bg-transparent flex items-center pt-16 px-[144px] justify-between"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -67,25 +67,25 @@
               fill="white"
             />
           </svg>
-          <ul class="flex justify-evenly w-5/12 items-center z-20">
+          <ul class="flex justify-between w-5/12 items-center z-20">
             <a
-              href="#"
+              href="index.html"
               class="hover:text-opacity-100 font-semibold text-black2-300 text-opacity-50 transition delay-150"
               ><li>HOME</li></a
             >
             <a
-              href="#"
+              href="about-me.html"
               class="hover:text-opacity-100 font-semibold text-black2-300 text-opacity-50 transition delay-150"
               ><li>ABOUT ME</li></a
             >
             <a
-              href="#"
+              href="my-work.html"
               class="hover:text-opacity-100 font-semibold text-black2-300 text-opacity-50 transition delay-150"
               ><li>MY WORKS</li></a
             >
-            <a href="#"
+            <a href="contact-me.html"
               ><button
-                class="w-[136px] h-12 bg-black border-2 border-black2-500 border-opacity-50 rounded-[30px] text-black2-500 font-semibold font-Rubik text-sm"
+                class="w-[136px] h-12 bg-black border-2 border-black2-500 border-opacity-50 rounded-[30px] text-black2-500 font-semibold font-Rubik text-sm hover:shadow-md hover:shadow-testimonial"
               >
                 CONTACT
               </button></a
@@ -142,8 +142,8 @@
             <h1 class="font-Syne font-bold text-black2-300 text-7xl">
               for Your Brand
             </h1>
-            <div class="brand w-full flex justify-center h-28 pt-28">
-              <a href="#"
+            <div class="brand w-full flex justify-center h-28 pt-28 z-20">
+              <a href="my-work.html"
                 ><button
                   class="bg-brand w-60 h-16 rounded-[30px] flex items-center justify-center shadow-2xl shadow-black text-white font-Rubik font-bold text-sm gap-6"
                 >
@@ -175,12 +175,14 @@
         </div>
       </header>
       <div class="content-section h-full w-full pb-36">
-        <div class="closer w-full h-screen flex flex-row justify-around">
+        <div
+          class="closer w-full h-screen flex flex-row px-[144px] justify-between"
+        >
           <div
-            class="closer-text w-[875px] flex flex-col px-[155px] gap-12 py-16"
+            class="closer-text w-[875px] flex flex-col gap-12 py-16"
             data-aos="fade-right"
           >
-            <div class="circle-bg-second absolute ml-[-450px] mt-[-250px]">
+            <div class="circle-bg-second absolute ml-[-450px] mt-[-250px] z-10">
               <svg
                 width="917"
                 height="651"
@@ -232,16 +234,15 @@
               and visual identity. Her portfolio showcases her wide range of
               work, spanning books, posters and web design.
             </p>
-            <button
-              class="bg-brand w-72 h-[60px] rounded-[30px] flex items-center justify-center shadow-2xl shadow-black text-white font-Rubik font-bold text-sm"
+            <a href="about-me.html" class="z-20"
+              ><button
+                class="bg-brand w-72 h-[60px] rounded-[30px] flex items-center justify-center shadow-2xl shadow-black text-white font-Rubik font-bold text-sm"
+              >
+                Discover More About Me
+              </button></a
             >
-              Discover More About Me
-            </button>
           </div>
-          <div
-            class="man w-[850px] h-screen flex justify-start"
-            data-aos="fade-left"
-          >
+          <div class="man w-1/2 h-screen flex justify-end" data-aos="fade-left">
             <img class="w-[470px] h-[510px]" src="../images/man.png" alt="" />
           </div>
         </div>
@@ -249,7 +250,7 @@
           <div
             class="title w-full h-52 flex justify-between flex-col items-center"
           >
-            <div class="projects-title-bg absolute mt-[-250px] ml-[380px]">
+            <div class="projects-title-bg absolute mt-[-250px] ml-[380px] z-10">
               <svg
                 width="741"
                 height="581"
@@ -294,7 +295,7 @@
             >
               My Projects Highlight
             </h1>
-            <a href="#"
+            <a href="my-work.html" class="z-20"
               ><button
                 class="bg-transparent w-[242px] h-[65px] rounded-[30px] flex items-center justify-center text-white font-Rubik font-bold text-sm border border-brand gap-6"
               >
@@ -324,10 +325,11 @@
             ></a>
           </div>
           <div
-            class="cards-container w-full h-[1630px] flex flex-wrap px-[110px] gap-y-20 gap-x-8 justify-center pt-20"
+            class="cards-container w-full h-[1630px] flex flex-wrap gap-y-20 gap-x-8 px-[144px] justify-between pt-20"
           >
             <div
-              class="card h-[770px] flex flex-col justify-between text-justify" data-aos="fade-right"
+              class="card h-[770px] flex flex-col justify-between text-justify"
+              data-aos="fade-right"
             >
               <img
                 class="rounded-[16px]"
@@ -353,7 +355,8 @@
               </div>
             </div>
             <div
-              class="card h-[770px] flex flex-col justify-between text-justify" data-aos="fade-left"
+              class="card h-[770px] flex flex-col justify-between text-justify"
+              data-aos="fade-left"
             >
               <img
                 class="rounded-[16px]"
@@ -379,7 +382,8 @@
               </div>
             </div>
             <div
-              class="card h-[770px] flex flex-col justify-between text-justify" data-aos="fade-right"
+              class="card h-[770px] flex flex-col justify-between text-justify"
+              data-aos="fade-right"
             >
               <img
                 class="rounded-[16px]"
@@ -404,7 +408,8 @@
               </div>
             </div>
             <div
-              class="card h-[770px] flex flex-col justify-between text-justify" data-aos="fade-left"
+              class="card h-[770px] flex flex-col justify-between text-justify"
+              data-aos="fade-left"
             >
               <img
                 class="rounded-[16px]"
@@ -470,9 +475,12 @@
             </defs>
           </svg>
         </div>
-        <div class="testimonial w-full h-[420px] flex flex-row">
+        <div
+          class="testimonial w-full h-[420px] flex flex-row justify-between px-[144px]"
+          data-aos="fade-right"
+        >
           <div
-            class="testimonial-text text-justify flex flex-col w-8/12 justify-around px-[155px]"
+            class="testimonial-text text-justify flex flex-col w-8/12 justify-around"
           >
             <h2
               class="font-Syne text-black2-300 text-[64px] font-[700px] relative"
@@ -496,9 +504,7 @@
               -Martin lee
             </h3>
           </div>
-          <div
-            class="testimonial-comma w-4/12 flex items-start justify-center pr-[35px]"
-          >
+          <div class="testimonial-comma w-4/12 flex justify-end items-start">
             <svg
               width="161"
               height="93"
@@ -530,7 +536,7 @@
         </div>
       </div>
       <footer
-        class="w-full h-[740px] bg-footer flex flex-col justify-evenly gap-40 items-center"
+        class="w-full h-[740px] bg-footer flex flex-col justify-around items-center"
       >
         <div
           class="touch w-full flex justify-center items-center flex-col font-Syne"
@@ -545,7 +551,7 @@
           </h2>
         </div>
         <div
-          class="connect h-96 w-full flex justify-between pl-[155px] items-center flex-wrap"
+          class="connect h-96 w-full flex px-[144px] items-center gap-[400px]"
         >
           <div class="logo">
             <svg
@@ -593,9 +599,7 @@
               />
             </svg>
           </div>
-          <div
-            class="addres-and-connect-app flex justify-evenly gap-12 pr-[400px]"
-          >
+          <div class="addres-and-connect-app flex">
             <div class="addres w-[285px] h-[135px]">
               <h3 class="text-black2-300 text-[24px] font-[700px] font-Syne">
                 Street Avenue 21, CA <br />0-8-00-888- <br />
@@ -632,13 +636,13 @@
               </div>
             </div>
           </div>
-          <div
-            class="license w-[1145px] h-[100px] flex items-center border-t-2 border-white justify-center"
-          >
-            <h3 class="text-[24px] font-[700px] font-Syne text-black2-300">
-              © 2023. Ideapeel. All rights reserved.
-            </h3>
-          </div>
+        </div>
+        <div
+          class="license w-[1246px] h-[100px] flex items-center border-t-2 border-white border-opacity-50 justify-center"
+        >
+          <h3 class="text-[24px] font-[700px] font-Syne text-black2-300">
+            © 2023. Ideapeel. All rights reserved.
+          </h3>
         </div>
       </footer>
     </main>
